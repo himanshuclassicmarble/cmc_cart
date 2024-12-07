@@ -1,0 +1,43 @@
+import { Product, sizeOptions, standardOptions, prePostOptions } from '../../app/types/CartForm/Schemas';
+
+export const products: Product[] = [
+  {
+    id: "1",
+    name: "terrazo",
+    subName: "coloseo",
+    imageSrc: "/marbles/Apollo_zebra_Gray.jpg",
+    size: sizeOptions[0],
+    standard: standardOptions[0],
+    prePost: prePostOptions[0],
+    quality: "A",
+    quantity: 20,
+    price: 250,
+    rate: 0,
+  },
+  {
+    id: "2",
+    name: "terrazo",
+    subName: "coloseo",
+    imageSrc: "/marbles/SUPER-WHITE-Feature-New.jpg",
+    size: sizeOptions[1],
+    standard: standardOptions[1],
+    prePost: prePostOptions[1],
+    quality: "B",
+    quantity: 15,
+    price: 200,
+    rate: 0,
+  },
+   {
+    id: "3",
+    name: "Perrazo",
+    subName: "Boloseo",
+    imageSrc: "/marbles/SUPER-WHITE-Feature-New.jpg",
+    size: sizeOptions[1],
+    standard: standardOptions[1],
+    prePost: prePostOptions[1],
+    quality: "B",
+    quantity: 15,
+    price: 200,
+    rate: 0,
+  },
+];
