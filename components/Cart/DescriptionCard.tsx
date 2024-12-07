@@ -256,17 +256,6 @@ const DescriptionCard: React.FC<DescriptionCardProps> = ({ onSubmit }) => {
               </div>
             </div>
 
-            <Separator />
-
-            <div className="flex justify-end pt-4 w-full">
-              <Button 
-                type="submit" 
-                variant="ghost" 
-                className="w-full sm:w-auto uppercase font-bold h-12 bg-gray-200"
-              >
-                Save Order
-              </Button>
-            </div>
           </Card>
         </form>
       </Form>
